@@ -9,6 +9,7 @@ import lombok.Data;
 public class Cultures {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "culture_id")
     private int cultureId;
 
     @Column(name="name")
