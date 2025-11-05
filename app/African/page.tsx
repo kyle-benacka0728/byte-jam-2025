@@ -1,8 +1,8 @@
-export default function European() {
+export default function African() {
   return (
     <div>
-      <h1>European Page</h1>
-      <p>Welcome to the European page!</p>
+      <h1>African Page</h1>
+      <p>Welcome to the African page!</p>
     </div>
   );
 }

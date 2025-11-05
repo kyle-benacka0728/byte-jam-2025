@@ -27,13 +27,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <nav className = "flex gap-4 p-4 bg-gray-200 dark:bg-gray-800 text-lg font-semibold flex justify-center fixed w-full top-0">
+        <nav className="flex z-50 gap-4 p-4 bg-gray-200 dark:bg-gray-800 text-lg font-semibold flex justify-center fixed w-full top-0">
           <a href="/">Home</a>
           <a href="/NativeAmerican">Native American</a>
           <a href="/European">European</a>
           <a href="/HispanicLatino">Hispanic and Latino</a>
+          <a href="/African">African</a>
+          <a href="/Asian">Asian</a>
+          <a href="/Indian">Indian</a>
         </nav>
-        {children}
+        <main className="pt-20 p-8">
+          {children}
+        </main>
       </body>
     </html>
   );
