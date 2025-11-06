@@ -1,10 +1,35 @@
-INSERT INTO cultures (name, url, alt_text) VALUES ("Native American", "https://wisehealthynwealthy.com/wp-content/uploads/2024/05/Native-American.jpg", "Native American looking up and to the left.");
-INSERT INTO cultures (name, url, alt_text) VALUES ("European", "https://thumbs.dreamstime.com/z/happy-man-perfect-white-smile-thumb-up-isolated-background-40905445.jpg", "Man of European descent happily smiling while giving a thumbs up.");
-INSERT INTO cultures (name, url, alt_text) VALUES ("Hispanic/Latino", "https://comediansontour.com/wp-content/uploads/2023/05/gabriel-iglesias.webp?w=350", "Mexican comedian Gabriel Iglesias smiling at camera.");
-INSERT INTO cultures (name, url, alt_text) VALUES ("African American", "https://www.hollywoodreporter.com/wp-content/uploads/2024/05/GettyImages-1208291436-1.jpg?w=1296&h=730&crop=1", "Black actor Morgan Freeman.");
+SELECT * FROM cultures;
+SELECT * FROM facts;
 
-INSERT INTO facts (bullet1, bullet2, bullet3, bullet4)
-    VALUES ("Tribes have sovereign governments, operate courts, schools, and police forces, and manage their own economies.",
-            "",
-            "",
-            "");
+INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (1, "Native American", "https://wisehealthynwealthy.com/wp-content/uploads/2024/05/Native-American.jpg", "Native American looking up and to the left.");
+INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (2, "European", "https://thumbs.dreamstime.com/z/happy-man-perfect-white-smile-thumb-up-isolated-background-40905445.jpg", "Man of European descent happily smiling while giving a thumbs up.");
+INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (3, "Hispanic/Latino", "https://comediansontour.com/wp-content/uploads/2023/05/gabriel-iglesias.webp?w=350", "Mexican comedian Gabriel Iglesias smiling at camera.");
+INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (4, "African American", "https://www.hollywoodreporter.com/wp-content/uploads/2024/05/GettyImages-1208291436-1.jpg?w=1296&h=730&crop=1", "Black actor Morgan Freeman.");
+
+INSERT INTO facts (culture_id, facts_id, bullet1, bullet2, bullet3, bullet4)
+VALUES (1, 1,
+        "Tribes have sovereign governments, operate courts, schools, and police forces, and manage their own economies.",
+        "Native leaders continue to fight for land rights, environmental protection, and representation in U.S. politics.",
+        "Contemporary Native artists mix traditional designs with modern styles — beadwork, tattoos, photography, and digital art.",
+        "Fashion designers highlight Indigenous pride through clothing lines using tribal symbols and natural materials.");
+
+INSERT INTO facts (culture_id, facts_id, bullet1, bullet2, bullet3, bullet4)
+VALUES (2, 2,
+        "European influence is most obviously seen through the language: English.",
+        "Dutch influence appears prominently as architecture in cities and towns.",
+        "The political system of the United States is built on the grievances their English ancestors had with their monarchy.",
+        "French influence dominates mainstream American fine arts; many techniques of many different art forms originated as customs in France.");
+
+INSERT INTO facts (culture_id, facts_id, bullet1, bullet2, bullet3, bullet4)
+VALUES (3, 3,
+        "Spanish is the second most spoken language.",
+        "Celebrations like Día de los Muertos, Cinco de Mayo, and Hispanic Heritage Month are widely recognized.",
+        "Foods like tacos, empanadas, and tamales are popular across the country.",
+        "The latino custom of family-first has crept into many movies and tv shows in recent times.");
+
+INSERT INTO facts (culture_id, facts_id, bullet1, bullet2, bullet3, bullet4)
+VALUES (4, 4,
+        "African culture is reflected in music, dance, fashion, and cuisine.",
+        "Genres like jazz, blues, hip-hop, and R&B have African roots.",
+        "African-inspired clothing, hairstyles, and festivals contribute to American culture.",
+        "Traditional African foods and flavors are also growing in popularity.");
