@@ -22,7 +22,7 @@ public class FactsController {
         return factsRepository.findAll();
     }
 
-    @GetMapping("/{cultureId}")
+    @GetMapping("/{culture_id}")
     public List<Facts> getFactsByCulture(@PathVariable int cultureId) {
         return factsRepository.findByCultureId(cultureId);
     }

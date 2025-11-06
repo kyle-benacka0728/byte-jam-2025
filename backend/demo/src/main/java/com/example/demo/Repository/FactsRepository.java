@@ -1,6 +1,5 @@
 package com.example.demo.Repository;
 
-import com.example.demo.Data.Cultures;
 import com.example.demo.Data.Facts;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

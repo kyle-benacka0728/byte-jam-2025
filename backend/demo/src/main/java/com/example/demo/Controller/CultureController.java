@@ -8,7 +8,7 @@ import java.util.List;
 
 @CrossOrigin(origins="*")
 @RestController
-@RequestMapping("/cultures/{cultureId}")
+@RequestMapping("/cultures/{culture_id}")
 public class CultureController {
     private final CulturesRepository culturesRepository;
 
@@ -21,4 +21,3 @@ public class CultureController {
         return culturesRepository.findAll();
     }
 }
-// http://localhost:8080/cultures/
