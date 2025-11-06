@@ -24,7 +24,6 @@ public class Facts {
     @Column(name="bullet4")
     private String bullet4;
 
-    @ManyToOne
-    @JoinColumn(name = "culture_id", nullable = false)
-    private Cultures cultures;
+    @Column(name = "culture_id", nullable = false)
+    private int cultureId;
 }

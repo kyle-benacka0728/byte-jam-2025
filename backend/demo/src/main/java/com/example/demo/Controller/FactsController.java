@@ -1,7 +1,6 @@
 package com.example.demo.Controller;
 
 import com.example.demo.Data.Facts;
-import com.example.demo.Repository.CulturesRepository;
 import com.example.demo.Repository.FactsRepository;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,9 +21,9 @@ public class FactsController {
         return factsRepository.findAll();
     }
 
-    @GetMapping("/{cultureId}")
-    public List<Facts> getFactsByCulture(@PathVariable int cultureId) {
-        return factsRepository.findByCultureId(cultureId);
+    @GetMapping("/{culture_id}")
+    public List<Facts> getFactsByCultures(@PathVariable int culture_id) {
+        return factsRepository.findByCultureId(culture_id);
     }
 
 }
