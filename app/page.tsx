@@ -9,9 +9,6 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             We should like, put something here
           </h1>
-          <Card imgSrc={"../static/orange.jpeg"} text={"Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test "} altText={"Test"} title={"Test Card"} >
-
-          </Card>
           
          
         </div>
