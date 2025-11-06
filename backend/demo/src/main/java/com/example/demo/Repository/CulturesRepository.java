@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CulturesRepository extends JpaRepository<Cultures, Integer> {
-
+    Cultures findByCultureId(int culture_id);
 }
