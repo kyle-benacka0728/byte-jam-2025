@@ -1,10 +1,12 @@
 package com.example.demo.Repository;
 
-import com.example.demo.Data.Cultures;
-import org.springframework.data.repository.CrudRepository;
+import com.example.demo.Data.Facts;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface FactsRepository extends CrudRepository<Cultures, Integer> {
+import java.util.List;
 
+@Repository
+public interface FactsRepository extends JpaRepository<Facts, Integer> {
+    List<Facts> findByCultureId(int cultureId);
 }
