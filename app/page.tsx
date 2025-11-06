@@ -1,4 +1,5 @@
-import Image from "next/image";
+import React from "react";
+import Card from "../components/card";
 
 export default function Home() {
   return (
@@ -8,11 +9,10 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             We should like, put something here
           </h1>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
           
-          
+         
         </div>
+        
       </main>
     </div>
   );
