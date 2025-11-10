@@ -12,8 +12,8 @@ export default function Home() {
       title: "Luis Acuna",
     },
     {
-      imgSrc: "../static/orange.jpeg",
-      text: "",
+      imgSrc: "../static/Ana.webp",
+      text: "I am a first year student, I helped with research and front end planning and design. I also contributed to the poster design and content.",
       altText: "Ana",
       title: "Ana Baltazar Diego",
     },
@@ -30,8 +30,8 @@ export default function Home() {
       title: "Clayton Williams",
     },
     {
-      imgSrc: "../static/orange.jpeg",
-      text: "",
+      imgSrc: "../static/Fiori.JPG",
+      text: "I am Fiori I am a second year student. I am graduating with the web emphasis. I helped design front end using wireframes and tailwind, I also designed created the poster ",
       altText: "Fiori",
       title: "Fiori Weldemichael",
     },
