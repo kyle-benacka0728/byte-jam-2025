@@ -48,21 +48,21 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+      <main className=" ml-5 flex min-h-screen w-full max-w-4xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-40 text-center rounded-lg p-2">
+          <h1 className="ml-50 max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-40 text-center rounded-lg p-2">
             America: United In Diversity
           </h1>
           <img className="border rounded-lg" src="../static/world.jpg" alt="world map"></img>
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-59 text-center rounded-lg p-2">
+          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-70 text-center rounded-lg p-2">
             Our Project
           </h1>
-          <p className="max-w-xs text-lg leading-7 text-black dark:text-zinc-50 bg-gray-800 ml-43 mr-0 text-center rounded-lg p-4">
+          <p className="ml-50 max-w-xs text-lg leading-7 text-black dark:text-zinc-50 bg-gray-800 ml-43 mr-0 text-center rounded-lg p-4">
             Our project is a web application that showcases the diverse cultures that make up the United States. Each culture has its own unique page that highlights its history, traditions, and contributions to American society. The application is built using Next.js for the frontend and Spring Boot for the backend, with a SQL database to store culture information and facts.
           </p>
         </div>
         <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left mt-10 width-full">
-          <h2 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-43 mr-0 text-center rounded-lg p-4">
+          <h2 className="ml-52 max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-43 mr-0 text-center rounded-lg p-4">
             Our Team Members
           </h2>
             {testData.map((data, index) => (
