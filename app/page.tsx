@@ -24,7 +24,7 @@ export default function Home() {
       title: "Carson Robinson",
     },
     {
-      imgSrc: "../static/orange.jpeg",
+      imgSrc: "../static/Clayton.JPG",
       text: "I am a second year student graduating with the mobile emphasis. I helped with front end next.js. I created the reusable card components, layout using dynamic page routing, and the page that renders the chosen culture. ",
       altText: "Clayton",
       title: "Clayton Williams",
