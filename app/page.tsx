@@ -48,7 +48,7 @@ export default function Home() {
             We should like, put something here
           </h1>
             {testData.map((data, index) => (
-              <TeamCard name={""} url={""} altText={""} key={index} />
+              <TeamCard name={data.title} url={data.imgSrc} altText={data.altText} desc={data.text} key={index} />
             ))}
           
          
