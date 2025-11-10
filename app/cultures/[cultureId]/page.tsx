@@ -12,11 +12,18 @@ export default async function CulturePage({ params }: { params: { cultureId: str
   });
 
   const culture: Culture = await cultureRes.json();  
-  const fact: Facts = await factsRes.json();          
+  const fact: Facts = await factsRes.json();
+  
+  const bullets = [
+    fact.bullet1,
+    fact.bullet2,
+    fact.bullet3,
+    fact.bullet4,
+  ]
 
   const combined: CultureCardProps = {
     ...culture,
-    bullets: fact?.bullets ?? [],
+    bullets,
   };
 
   return (
