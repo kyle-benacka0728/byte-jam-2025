@@ -35,7 +35,7 @@ export default function RootLayout({
           <a href="/cultures/4">African</a>
           <a href="/cultures/5">Asian</a>
         </nav>
-        <main className="pt-20 p-8">
+        <main className="pt-0 p-8">
           {children}
         </main>
       </body>
