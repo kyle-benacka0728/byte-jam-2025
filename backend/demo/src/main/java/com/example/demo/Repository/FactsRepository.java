@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface FactsRepository extends JpaRepository<Facts, Integer> {
-    List<Facts> findByCultureId(int cultureId);
+     Facts findByCultureId(int culture_id);
 }

@@ -13,7 +13,7 @@ export type Facts = {
   bullet1: string;
   bullet2: string;
   bullet3: string;
-  bullet4: string; 
+  bullet4: string;
 };
 
 
