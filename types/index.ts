@@ -10,10 +10,10 @@ export type Culture = {
 export type Facts = {
   cultureId: number;
   factsId: number;
-  bullet1: string
-  bullet2: string
-  bullet3: string
-  bullet4: string; 
+  bullet1: string;
+  bullet2: string;
+  bullet3: string;
+  bullet4: string;
 };
 
 

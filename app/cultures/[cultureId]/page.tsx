@@ -2,7 +2,7 @@ import Card from "../../../components/card";
 import { Culture, Facts, CultureCardProps } from "../../../types/index";
 
 export default async function CulturePage({ params }: { params: { cultureId: string } }) {
-  const { cultureId } = params;
+  const { cultureId } = await (params);
 
   const cultureRes = await fetch(`http://localhost:8080/cultures/${cultureId}`, {
     cache: "no-store",
@@ -13,6 +13,13 @@ export default async function CulturePage({ params }: { params: { cultureId: str
 
   const culture: Culture = await cultureRes.json();  
   const fact: Facts = await factsRes.json();
+
+  console.log(culture)
+  console.log(fact)
+  console.log(fact.bullet1)
+
+  
+
   
   const bullets = [
     fact.bullet1,
@@ -21,10 +28,12 @@ export default async function CulturePage({ params }: { params: { cultureId: str
     fact.bullet4,
   ]
 
+
   const combined: CultureCardProps = {
     ...culture,
     bullets,
   };
+
 
   return (
     <div>

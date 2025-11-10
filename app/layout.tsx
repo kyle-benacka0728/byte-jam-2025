@@ -29,12 +29,11 @@ export default function RootLayout({
       >
         <nav className="flex z-50 gap-4 p-4 bg-gray-200 dark:bg-gray-800 text-lg font-semibold flex justify-center fixed w-full top-0">
           <a href="/">Home</a>
-          <a href="/cultures/6">Native American</a>
-          <a href="/cultures/3">European</a>
-          <a href="/cultures/4">Hispanic and Latino</a>
-          <a href="/cultures/1">African</a>
-          <a href="/cultures/2">Asian</a>
-          <a href="/cultures/5">Indian</a>
+          <a href="/cultures/1">Native American</a>
+          <a href="/cultures/2">European</a>
+          <a href="/cultures/3">Hispanic and Latino</a>
+          <a href="/cultures/4">African</a>
+          <a href="/cultures/5">Asian</a>
         </nav>
         <main className="pt-0 p-8">
           {children}
