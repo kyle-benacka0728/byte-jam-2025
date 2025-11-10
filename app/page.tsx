@@ -6,7 +6,7 @@ import TeamCard from "../components/teamCard";
 export default function Home() {
   const testData = [
     {
-      imgSrc: "../static/orange.jpeg",
+      imgSrc: "../static/Luis.JPG",
       text: "I'm a second year student graduating with dual emphasis Web and Mainframe. I was the main backend developer and database designer. I created the SQL schema, the tables, and seeded data; as well as coded the backend with consultation from Marcie.",
       altText: "Luis",
       title: "Luis Acuna",
@@ -18,7 +18,7 @@ export default function Home() {
       title: "Ana Baltazar Diego",
     },
     {
-      imgSrc: "../static/orange.jpeg",
+      imgSrc: "../static/carson.png",
       text: "My name is Carson Robinson. I'm in my second year at Indian Hills, so far I've been doing classes through dual enrollment. So far I've learn Python, HTML, Database, and Cloud Foundations amongst other things. I helped with researching projects, and designing pages on this project.",
       altText: "Carson",
       title: "Carson Robinson",
@@ -36,7 +36,7 @@ export default function Home() {
       title: "Fiori Weldemichael",
     },
         {
-      imgSrc: "../static/orange.jpeg",
+      imgSrc: "../static/Marcie.JPG",
       text: "I'm a second year student graduating in May of 2026 in the Web emphasis of my program. I helped out with creating the backend Spring project in various ways such as the tables, controller, and general structure of the backend. I also assisted in making the front end, mainly with the styling of the site itself, alongside helping with making the poster!",
       altText: "Marcie",
       title: "Marcie Benacka",
@@ -53,6 +53,14 @@ export default function Home() {
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-40 text-center rounded-lg p-2">
             America: United In Diversity
           </h1>
+          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-59 text-center rounded-lg p-2">
+            Our Project
+          </h1>
+          <p className="max-w-xs text-lg leading-7 text-black dark:text-zinc-50 bg-gray-800 ml-43 mr-0 text-center rounded-lg p-4">
+            Our project is a web application that showcases the diverse cultures that make up the United States. Each culture has its own unique page that highlights its history, traditions, and contributions to American society. The application is built using Next.js for the frontend and Spring Boot for the backend, with a SQL database to store culture information and facts.
+          </p>
+        </div>
+        <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left mt-10">
           <h2 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 bg-gray-800 ml-43 mr-0 text-center rounded-lg p-4">
             Our Team Members
           </h2>
