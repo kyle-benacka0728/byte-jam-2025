@@ -1,11 +1,11 @@
 SELECT * FROM cultures;
 SELECT * FROM facts;
+
 INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (1, "Native American", "https://cdn.upworthy.com/500034/uploads/87e2f850-2030-11eb-ba09-1baef2cee309_800_420.jpeg", "Former U.S. Secretary of the Interior Deb Haaland.");
 INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (2, "European", "https://thumbs.dreamstime.com/z/happy-man-perfect-white-smile-thumb-up-isolated-background-40905445.jpg", "Man of European descent happily smiling while giving a thumbs up.");
 INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (3, "Hispanic/Latino", "https://comediansontour.com/wp-content/uploads/2023/05/gabriel-iglesias.webp?w=350", "Mexican comedian Gabriel Iglesias smiling at camera.");
 INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (4, "African American", "https://www.hollywoodreporter.com/wp-content/uploads/2024/05/GettyImages-1208291436-1.jpg?w=1296&h=730&crop=1", "Black actor Morgan Freeman.");
-INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (5, "Asian American", "https://i.pinimg.com/736x/9f/86/98/9f86982733660b4f0ba9c8d0d92fe0c5.jpg", "Asian youtuber RiceGum.");
-
+INSERT INTO cultures (culture_id, name, url, alt_text) VALUES (5, "Asian American", "https://www.amd.com/content/dam/amd/en/images/photography/corporate/lisa-su/gallery/2321130-lisa-su-holding-chip.jpg", "Current AMD CEO Lisa Su.");
 
 INSERT INTO facts (culture_id, facts_id, bullet1, bullet2, bullet3, bullet4)
 VALUES (1, 1,
