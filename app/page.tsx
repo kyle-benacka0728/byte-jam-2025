@@ -7,13 +7,13 @@ export default function Home() {
   const testData = [
     {
       imgSrc: "../static/orange.jpeg",
-      text: "",
+      text: "I'm a second year student graduating with dual emphasis Web and Mainframe. I was the main backend developer and database designer. I created the SQL schema, the tables, and seeded data; as well as coded the backend with consultation from Marcie.",
       altText: "Luis",
       title: "Luis Acuna",
     },
     {
       imgSrc: "../static/orange.jpeg",
-      text: "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 2 ",
+      text: "",
       altText: "Ana",
       title: "Ana Baltazar Diego",
     },
@@ -31,7 +31,7 @@ export default function Home() {
     },
     {
       imgSrc: "../static/orange.jpeg",
-      text: "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 5",
+      text: "",
       altText: "Fiori",
       title: "Fiori Weldemichael",
     },
