@@ -12,7 +12,7 @@ export default function Home() {
       title: "Luis Acuna",
     },
     {
-      imgSrc: "../static/Ana.webp",
+      imgSrc: "../static/ana.jpg",
       text: "I am a first year student, I helped with research and front end planning and design. I also contributed to the poster design and content.",
       altText: "Ana",
       title: "Ana Baltazar Diego",
